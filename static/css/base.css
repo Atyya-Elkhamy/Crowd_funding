@@ -1,0 +1,12 @@
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; 
+}
+nav{
+    background-color: lightslategrey !important;
+}

@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav-link{
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+#brand{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#person{
+    font-size: 25px;
+}
+#menue{
+    background-color: #b4ddde;
+    padding: 5px;
+}
+#menue a{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+}
+#p_form input{
+    padding: 15px !important;
+    margin: 10px;
+}
+body{
+    background-image: url('/static/imgs/img1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#options button{
+    background-color: #b4ddde;
+    font-weight: bold;
+    font-size:large;
+}
+#options button:hover{
+    background-color: #8adbdd;
+    transition: 0.3s;
+    scale: 1.02;
+}
+#table{
+    width: 95%;
+    margin: auto;
+}
+#links a:hover{
+    background-color: white;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.error-message{
+    color: red;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 10px;
+}

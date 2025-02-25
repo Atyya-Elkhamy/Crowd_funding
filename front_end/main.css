@@ -1,0 +1,87 @@
+#start{
+    background-color: #154360 ;
+    color: #ffffff;
+    width: 50%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.8;
+   }
+   #start a{
+    color: white;
+   }
+   #start a:hover{
+    background-color: #2487c4 ;
+   }
+   form{
+    background-color: #b4c1de;
+    border-radius: 20px;
+   }
+   form input{
+    padding: 10px;
+   }
+    form div:not(:first-child) {
+        margin: 5px;
+    }
+   label{
+    font-weight: bold;
+    font-size: medium;
+   }
+   #btn1,#btn2{
+    border-radius: 10px;
+    color: white;
+    margin:10px;
+    padding: 10px;
+    width: 50%;
+    font-size: 1.4rem;
+    font-weight: bold;
+    background-color:black ;
+    box-shadow: 0px 0px 5px 10px #d407ae33;
+   }
+   .nav-link{
+        font-weight: bold;
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+    #brand{
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    #person{
+        font-size: 25px;
+    }
+    #menue{
+        background-color: #b4ddde;
+        padding: 5px;
+    }
+    #menue a{
+        font-weight: bold;
+        font-size: 20px;
+        padding: 5px;
+    }
+    #navMenu a:hover{
+        background-color: white;
+        border-radius: 10px;
+        transition:0.3s;
+    }
+    .modal-dialog {
+            max-width: 80%;
+        }
+    body {
+        background-image: url('./img1.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .error-message{
+        color: red;
+        font-size: 1rem;
+        font-weight: bold;
+        margin-top: 10px;
+    }
